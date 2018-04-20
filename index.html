@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/css/loginform.css">
     <title>Log In</title>
 </head>
 <body>
     <section class="login">
-        <img src="public/images/logo.png" alt="logo">
-        <h1>Login Here</h1>
+        <img class="login__avatar" src="public/images/logo.png" alt="logo">
+        <h1 class="login__title">Login Here</h1>
         <form>
             <!-- USERNAME -->
-            <label for="username">Username</label>
-            <input type="text" placeholder="Enter Username">
-
+            <label class="login__label">
+                Username
+                <input
+                class="login__input login__input__username" 
+                type="text" placeholder="Enter Username"
+                />
+            </label>
+            
             <!-- PASSWORD -->
-            <label for="password">Password</label>
-            <input type="password" placeholder="Enter Password">
-            <a href="#">Lost your password?</a>
-            <a href="#">Don´t have an account?</a>
+            <label class="login__label">
+                Password
+                <input
+                class="login__input login__input__password"
+                type="password" placeholder="Enter Password"
+                />
+            </label>
+            
+            <!-- BUTTON -->
+            <input
+            class="login__input login__input__button"
+            type="submit" value="Log In"
+            />
+
+            <!-- LINKS -->
+            <a class="login__link" href="#">Lost your password?</a>
+            <a class="login__link" href="#">Don´t have an account?</a>
         </form>
     </section>
 </body>
