@@ -3,7 +3,7 @@
 
 ## Descripción
 
-Maqueta de inicio de seción en un sitio web
+Maqueta de inicio de sesión en un sitio web
 [Página](https://fernandoguevaram.github.io/LoginForm/)
 
 ## Tecnologías
